@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.logging.Logger;
 
 public class CalculatorProxy implements InvocationHandler {
-    private Logger logger = Logger.getLogger(Calculator.class.getName());
+    private Logger logger = Logger.getLogger(CalculatorProxy.class.getName());
     private final Calculator calculator;
 
     public CalculatorProxy(Calculator calculator) {
